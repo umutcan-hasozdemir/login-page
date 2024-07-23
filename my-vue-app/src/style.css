@@ -1,0 +1,80 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; 
+   font-family: Roboto Condensed;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 300px;
+}
+.email-content {
+  display: flex;
+  flex-direction: column;
+}
+.email-content input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 11px;
+  color: #666;
+  background-color: transparent;
+}
+
+/* password label */
+
+.password-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  margin: 17px 0 ;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+
+.password-content {
+  display: flex;
+  flex-direction: column;
+}
+.password-content input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 11px;
+  color: #666;
+  background-color: transparent;
+}
+
+/* button */
+
+.btn-login {
+  background-color: #ffc000;
+  ;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.eyeİcon {
+position:  absolute;
+
+}
